@@ -29,7 +29,7 @@ def adder_page():
     return '''
         <html>
             <body>
-                <p>Enter your fix message</p>
+                <p>Enter your fix message , Example: 8=FIX.4.2|9=51|35=0|34=703|49=ABC|52=20100130-10:53:40.830|56=XYZ|10=249</p>
                 <form method="post" action=".">
                     <p><input name="fix_message" /></p>
                     <p><input type="submit" value="Parse!" /></p>

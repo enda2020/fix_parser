@@ -1,7 +1,7 @@
 
 #!/usr/bin/env python3
 import xml.etree.ElementTree as ET
-tree = ET.parse('FIX42.xml')
+tree = ET.parse('./static/FIX42.xml')
 root = tree.getroot()
 #for child in root:
  # print(child.tag)
